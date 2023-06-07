@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputCardComponent shoud match snapshot 1`] = `
+<div
+  id="root1"
+>
+  <div
+    class="o-input-card"
+  >
+    <app-form-input
+      class="o-input-card__form-input"
+    >
+      <div
+        class="m-form-input"
+      >
+        <label
+          class="m-form-input__label"
+        >
+          Label
+        </label>
+        <app-input
+          class="m-form-input__input"
+        >
+          <input
+            class="a-input ng-untouched ng-pristine ng-valid"
+            placeholder=""
+            type="text"
+          />
+        </app-input>
+      </div>
+    </app-form-input>
+    <app-action-button
+      class="o-input-card__action-button"
+    >
+      <button
+        class="a-action-button"
+        data-testid="action-button"
+      >
+        Text
+      </button>
+    </app-action-button>
+  </div>
+</div>
+`;

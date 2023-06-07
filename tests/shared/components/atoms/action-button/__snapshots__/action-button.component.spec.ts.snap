@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionButtonComponent shoud match snapshot 1`] = `
+<div
+  id="root1"
+>
+  <button
+    class="a-action-button"
+    data-testid="action-button"
+  >
+    text
+  </button>
+</div>
+`;

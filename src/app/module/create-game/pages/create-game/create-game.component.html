@@ -1,0 +1,8 @@
+<app-create-game-template
+    [labelText]="labelText"
+    [inputType]="inputType"
+    [inputControl]="nameControl"
+    [actionButtonText]="actionButtonText"
+    [buttonDisabled]="createGameControl.invalid"
+    (actionButtonClick)="createGame($event)">
+</app-create-game-template>

@@ -1,0 +1,32 @@
+:host {
+    display: contents;
+}
+.a-action-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    width: 159px;
+    height: 40px;
+    background: #F6F7FC;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    color: #330072;
+
+    &:hover {
+        background: #BB65FF;
+        color: #ffffff;
+    }
+
+    &:disabled {
+        background: rgba(157, 157, 161, 0.3);
+        pointer-events: none;
+        color: rgba(157, 157, 161, 0.6);
+    }
+}

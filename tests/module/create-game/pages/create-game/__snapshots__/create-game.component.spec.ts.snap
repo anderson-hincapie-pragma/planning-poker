@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateGameComponent should match snapshot 1`] = `
+<div
+  id="root1"
+>
+  <app-create-game-template>
+    <div
+      class="t-create-game"
+    >
+      <app-input-card
+        class="t-create-game__input-card"
+      >
+        <div
+          class="o-input-card"
+        >
+          <app-form-input
+            class="o-input-card__form-input"
+          >
+            <div
+              class="m-form-input"
+            >
+              <label
+                class="m-form-input__label"
+              >
+                Nombra la partida
+              </label>
+              <app-input
+                class="m-form-input__input"
+              >
+                <input
+                  class="a-input ng-untouched ng-pristine ng-invalid"
+                  placeholder=""
+                  type="text"
+                />
+              </app-input>
+            </div>
+          </app-form-input>
+          <app-action-button
+            class="o-input-card__action-button"
+          >
+            <button
+              class="a-action-button"
+              data-testid="action-button"
+              disabled=""
+            >
+              Crear partida
+            </button>
+          </app-action-button>
+        </div>
+      </app-input-card>
+    </div>
+  </app-create-game-template>
+</div>
+`;

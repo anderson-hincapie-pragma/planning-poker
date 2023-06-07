@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputComponent shoud match snapshot 1`] = `
+<div
+  id="root1"
+>
+  <input
+    class="a-input ng-untouched ng-pristine ng-valid"
+    placeholder=""
+    type="text"
+  />
+</div>
+`;

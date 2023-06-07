@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInputComponent shoud match snapshot 1`] = `
+<div
+  id="root1"
+>
+  <div
+    class="m-form-input"
+  >
+    <label
+      class="m-form-input__label"
+    >
+      Label
+    </label>
+    <app-input
+      class="m-form-input__input"
+    >
+      <input
+        class="a-input ng-untouched ng-pristine ng-valid"
+        placeholder=""
+        type="text"
+      />
+    </app-input>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+<div class="t-create-game">
+    <app-input-card class="t-create-game__input-card"
+        [labelText]="labelText"
+        [inputType]="inputType"
+        [inputPlaceholder]="inputPlaceholder"
+        [inputControl]="inputControl"
+        [actionButtonText]="actionButtonText"
+        [buttonDisabled]="buttonDisabled"
+        (actionButtonClick)="actionButtonClick.emit($event)">
+    </app-input-card>
+</div>
